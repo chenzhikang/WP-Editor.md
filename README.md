@@ -1,3 +1,13 @@
+##### fork分支说明：使用过程中，发现工具栏按钮有多余，比较影响效率，因此创建分支定制按钮。
+- 修改xxx/Controller.php中editormd.min.js的路径，改为加载本地脚本。
+- 编辑assets/Config/editormd.js文件中对应的数组内容
+    - fullToolBar = 文章界面
+    - simpleToolBar = 前端评论界面
+    - miniToolBar = 后台评论管理界面
+- 注意更新后，要强刷WordPress编辑页面，已加载最新js文件。
+    
+
+
 # WP Editor.md
 
 [![GitHub issues](https://img.shields.io/github/issues/JaxsonWang/WP-Editor.md.svg)](https://github.com/JaxsonWang/WP-Editor.md/issues)
