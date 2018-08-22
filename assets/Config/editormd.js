@@ -18,11 +18,12 @@
         //完整菜单
         var fullToolBar = [
             'undo', 'redo', '|',
-            'bold', 'del', 'italic', 'quote', 'ucwords', 'uppercase', 'lowercase', '|',
+            'bold', 'del', 'italic', 'quote',  '|',
             'h1', 'h2', 'h3', 'h4', 'h5', 'h6', '|',
-            'list-ul', 'list-ol', 'hr', '|',
-            'link', 'reference-link', 'image', 'code', 'code-block', 'table', 'datetime', editor.emoji !== 'off' ? 'emoji,' : '' + 'html-entities', 'more', 'pagebreak', '|',
-            'goto-line', 'watch', 'preview', 'fullscreen', 'clear', 'search', '|',
+            'list-ul', 'list-ol', '|','hr', '|',
+            'link', 'reference-link', 'image','|',
+            'code', 'code-block', 'more', 'pagebreak', '|',
+            'watch',  '|',
             'help', 'info'
         ];
         var simpleToolBar = [
